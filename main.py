@@ -17,7 +17,7 @@ def main() -> None:
     elif choice == '2':
         user_service.create_user()
     elif choice == '3':
-        pass
+        exit
     else:
         print("Siz xato menu tanladigniz.")
 
