@@ -20,5 +20,10 @@
         {"nom": "Stul", "narx": 200000},
         {"nom": "Shkaf", "narx": 1200000}
     ],
-    "orders": []
+    "orders": [
+        {
+            "user_id": "fdf",
+            "products": ["fdsfas", "fdsafasd"]
+        }
+    ]
 }

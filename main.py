@@ -24,6 +24,8 @@ def main() -> None:
                 choice = input("> ")
                 if choice == '1':
                     product_service.print_products()
+                    product_id = input("qaysi mahsulotni harid qilmoqchisiz: ")
+                    
                 elif choice == '2':
                     pass
                 elif choice == '3':
