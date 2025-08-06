@@ -12,11 +12,16 @@ class UserService:
         self.users: List[User] = []
     
     def create_user(self):
-        first_name = input()
-        last_name = input()
-        email = input()
-        password = input()
-        
+        first_name = input("Ismingizni kiriting: ").strip().capitalize()
+        last_name = input("Familiyangizni kirting: ").strip().capitalize()
+        email = input("Email manzilingizni kiriting: (masalan: vali@gmail.com)").strip().lower()
+        password = input("Parol kiriting:")
+        if len(password) < 6:
+            print("password kamida 6 ta harfdan iborat bo'lishi kerak: ")
+        else:
+            print("Password xato: ")
+      
+      
         # validate all data
         User.create_user(
             first_name=first_name,
