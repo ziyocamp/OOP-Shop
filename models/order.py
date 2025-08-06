@@ -2,7 +2,7 @@ from uuid import uuid4
 class Order:
     def __init__(self, user, products, order_id: str | None):
         self.user = user
-        self.products = products  # ro'yxat bo'lishi mumkin
+        self.products = products 
         self.order_id = order_id or str(uuid4())
 
     def to_dict(self):
