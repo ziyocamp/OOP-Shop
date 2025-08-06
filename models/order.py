@@ -1,6 +1,8 @@
 from uuid import uuid4
+
+
 class Order:
-    def __init__(self, user, products, order_id: str | None):
+    def __init__(self, user, products, order_id: str | None = None):
         self.user = user
         self.products = products 
         self.order_id = order_id or str(uuid4())
@@ -12,7 +14,7 @@ class Order:
         return {
             'user': self.user,
             'products': self.products,
-            'order_id': self.order_id 
+            'id': self.order_id 
         }
 
     @classmethod
