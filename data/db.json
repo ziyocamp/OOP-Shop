@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "id": "b219c85d-cc23-4b8a-b748-4fef4eecc1e5",
+            "first_name": "Ali",
+            "last_name": "Valiyev",
+            "email": "ali@gamil.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        },
+        {
+            "id": "3af3b630-81ed-4fe1-9295-3d83a134ec01",
+            "first_name": "Vali",
+            "last_name": "Aliyev",
+            "email": "vali@gmail.com",
+            "password": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+        }
+    ],
+    "products": [
+        {"nom": "Stol", "narx": 500000},
+        {"nom": "Stul", "narx": 200000},
+        {"nom": "Shkaf", "narx": 1200000}
+    ],
+    "orders": []
+}

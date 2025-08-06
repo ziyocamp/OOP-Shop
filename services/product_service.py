@@ -11,13 +11,3 @@ class ProductService:
                 nom = mahsulot.get("nom", "Noma'lum")
                 narx = mahsulot.get("narx", "Narx ko'rsatilmagan")
                 print(f"{i}. Mahsulot nomi: {nom}, Narxi: {narx} so'm")
-
-
-mahsulotlar = [
-    {"nom": "Stol", "narx": 500000},
-    {"nom": "Stul", "narx": 200000},
-    {"nom": "Shkaf", "narx": 1200000}
-]
-
-xizmat = ProductService(mahsulotlar)
-xizmat.print_products()

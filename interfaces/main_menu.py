@@ -17,3 +17,17 @@ def home_manu():
         border_style="bright_magenta"
     )
     console.print(panel)
+
+def main_menu():
+    menu_text = """
+[bold cyan]1.[/] Mahsulotlar  
+[bold cyan]2.[/] Profile  
+[bold cyan]3.[/] ❌ Chiqish  
+"""
+    panel = Panel(
+        menu_text,
+        title="[bold magenta]🏠 MAIN MENU",
+        box=box.ROUNDED,
+        border_style="bright_magenta"
+    )
+    console.print(panel)
